@@ -11,6 +11,18 @@ to see if it is possible to avoid pubs when walking through Dublin (or any other
  * `mvn clean install assembly:single`
  * `java -jar target/pub-route-dublin-1.0-SNAPSHOT-jar-with-dependencies.jar osmreader.osm=your.pbf config=config.properties`
 
+# Pub Data
+
+![avoid route](./images/data.png)
+
+# Original Route is 5.8km
+
+![avoid route](./images/original-route.png)
+
+# Avoiding Route is 7.3km
+
+![avoid route](./images/route.png)
+
 # License
 
 Apache License 2.0
